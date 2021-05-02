@@ -5,7 +5,7 @@ import { Link as LinkS} from 'react-scroll';
 export const Nav = styled.nav`
   background: #000;
   height: 80px:
-
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
     transition: 0.8s all ease;
   }
 `
-  // margin-top: -80px;
+
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
