@@ -1,5 +1,5 @@
 import './App.css';
-// import Home from './components/Sidebar';
+import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <Router>
+      <Sidebar />
       <Navbar />
     </Router>
   );
