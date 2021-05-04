@@ -3,45 +3,44 @@ import Icon1 from '../../images/svg-deck.svg.svg';
 import Icon2 from '../../images/svg-deck.svg.svg';
 import Icon3 from '../../images/svg-deck.svg.svg';
 import {
-  ServicesContainer,
-  ServicesH1,
-  ServicesWrapper,
-  ServicesCard,
-  ServicesIcon,
-  ServicesH2,
-  ServicesP,
-} from "./ServicesElements";
+  PortfolioContainer,
+  PortfolioH1,
+  PortfolioWrapper,
+  PortfolioCard,
+  PortfolioIcon,
+  PortfolioH2,
+  PortfolioP,
+} from "./PortfolioElements";
 
-const Services = () => {
+const Portfolio = () => {
   return (
-    <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
-      <ServicesWrapper>
-        <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expense</ServicesH2>
-          <ServicesP>
-            We help reduce your fees and increase your overall revenue.
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>
-            You can access our platform online anywhere in the world.
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>
-            Unlock our special membership card that returns five percent cash
-            back.
-          </ServicesP>
-        </ServicesCard>
-      </ServicesWrapper>
-    </ServicesContainer>
+    <PortfolioContainer id="portfolio">
+      <PortfolioH1>Portfolio</PortfolioH1>
+        <PortfolioWrapper>
+          <PortfolioCard>
+            <PortfolioIcon src={Icon1} />
+            <PortfolioH2>Pawsperity</PortfolioH2>
+            <PortfolioP>
+              Supporting a healthy life for your pet.
+            </PortfolioP>
+          </PortfolioCard>
+          <PortfolioCard>
+            <PortfolioIcon src={Icon2} />
+            <PortfolioH2>Busy Parent Scheduler</PortfolioH2>
+            <PortfolioP>
+              Need help with your hectic schedule?
+            </PortfolioP>
+          </PortfolioCard>
+          <PortfolioCard>
+            <PortfolioIcon src={Icon3} />
+            <PortfolioH2>Project 3</PortfolioH2>
+            <PortfolioP>
+              Testing
+            </PortfolioP>
+          </PortfolioCard>
+        </PortfolioWrapper>
+    </PortfolioContainer>
   );
 };
 
-export default Services;
+export default Portfolio;

@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const ServicesContainer = styled.div`
+export const PortfolioContainer = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ export const ServicesContainer = styled.div`
   }
 `
 
-export const ServicesWrapper = styled.div`
+export const PortfolioWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -36,14 +36,14 @@ export const ServicesWrapper = styled.div`
   }
 `
 
-export const ServicesCard = styled.div`
+export const PortfolioCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: flex-start;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 8px;
   max-height: 340px;
-  padding: 30px;
+  padding: 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
@@ -54,12 +54,12 @@ export const ServicesCard = styled.div`
   }
 `
 
-export const ServicesIcon = styled.img`
+export const PortfolioIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
 `
-export const ServicesH1 = styled.h1`
+export const PortfolioH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -69,12 +69,12 @@ export const ServicesH1 = styled.h1`
   }
 `
 
-export const ServicesH2 = styled.h2`
+export const PortfolioH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `
 
-export const ServicesP = styled.p`
+export const PortfolioP = styled.p`
   font-size: 1rem;
   text-align: center;
 `

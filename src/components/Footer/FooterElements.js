@@ -98,14 +98,14 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 `
 
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 240px;
+  align-items: left;
+  width: 24px;
 `
 
 export const SocialIconLink = styled.a`
