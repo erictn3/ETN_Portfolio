@@ -9,6 +9,7 @@ import {
   Column2,
   TextWrapper,
   TopLine,
+  TopLineTwo,
   Heading,
   Subtitle,
   BtnWrap,
@@ -21,10 +22,13 @@ const InfoSection = ({
   id,
   imgStart,
   topLine,
+  topLineTwo,
   lightText,
   headline,
   darkText,
   description,
+  secondDescription,
+  githubDescription,
   buttonLabel,
   img,
   alt,
@@ -40,8 +44,11 @@ const InfoSection = ({
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
+                <TopLineTwo>{topLineTwo}</TopLineTwo>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{secondDescription}</Subtitle>
+                <Subtitle darkText={darkText}>{githubDescription}</Subtitle>
                 {/* <BtnWrap>
                   <Button to="home"
                   smooth={true}

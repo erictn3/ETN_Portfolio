@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const PortfolioContainer = styled.div`
-  height: 700px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,3 +78,23 @@ export const PortfolioP = styled.p`
   font-size: 1rem;
   text-align: center;
 `
+
+
+// ======================================================
+
+export const Column2 = styled.div`
+  margin-bottom: 0px;
+  padding: 0 15px;
+  grid-area: col2;
+`;
+
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`;

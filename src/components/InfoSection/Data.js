@@ -38,9 +38,10 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: '',
-  headline: 'Get in touch',
-  description: 'The following ways to contact me:',
+  topLineTwo: 'Get in touch',
+  headline: '',
+  description: 'Number: +1 (714) 244-7041',
+  secondDescription: "Email: EricTayNguyen@gmail.com",
   // buttonLabel: 'More Info',
   imgStart: false,
   img: require('../../images/svg-arcade.svg.svg').default,
@@ -48,4 +49,5 @@ export const homeObjThree = {
   dark: false, 
   primary: false,
   darkText: true
+
 };   

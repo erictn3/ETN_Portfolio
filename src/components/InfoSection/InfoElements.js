@@ -38,7 +38,7 @@ export const Column1 = styled.div`
   grid-area: col1;
 `;
 export const Column2 = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   padding: 0 15px;
   grid-area: col2;
 `;
@@ -55,8 +55,21 @@ export const TopLine = styled.p`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
+  margin-top: 100px;
 `;
+
+export const TopLineTwo = styled.p`
+  color: #01bf71;
+  font-size: 40px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-top: 100px;
+`;
+
 
 export const Heading = styled.h1`
   margin-bottom: 24px;

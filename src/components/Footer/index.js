@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -18,10 +18,16 @@ const Footer = () => {
           <FooterLinksWrapper>
             <SocialIcons>
               <SocialIconLink 
-                href="/" 
+                href="https://www.linkedin.com/in/eric-t-nguyen-1b1bbb173/" 
                 target="_blank" 
                 aria-label="LinkedIn">
                 <FaLinkedin />
+              </SocialIconLink>
+              <SocialIconLink 
+                href="https://github.com/erictn3" 
+                target="_blank" 
+                aria-label="Github">
+                <FaGithub />
               </SocialIconLink>
             </SocialIcons>
           </FooterLinksWrapper>

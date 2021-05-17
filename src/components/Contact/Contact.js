@@ -10,10 +10,13 @@ import {
   PortfolioIcon,
   PortfolioH2,
   PortfolioP,
-} from "./PortfolioElements";
+  Column2,
+  Img,
+  ImgWrap,
+} from "./ContactElements";
 
-// TODO: commented out portfolio 3 section is PROJECT 3 info
-const Portfolio = () => {
+const Contact = () => ({
+  img,}) => {
   return (
     <PortfolioContainer id="portfolio">
       <PortfolioH1>Portfolio</PortfolioH1>
@@ -34,6 +37,12 @@ const Portfolio = () => {
               Need help with your hectic schedule?
             </PortfolioP>
           </PortfolioCard>
+
+          <Column2>
+              <ImgWrap>
+                <Img src={img} />
+              </ImgWrap>
+            </Column2>
           {/* <PortfolioCard>
             <PortfolioIcon src={Icon3} />
             <PortfolioH2>Project 3</PortfolioH2>
@@ -43,7 +52,7 @@ const Portfolio = () => {
           </PortfolioCard> */}
         </PortfolioWrapper>
     </PortfolioContainer>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Contact;

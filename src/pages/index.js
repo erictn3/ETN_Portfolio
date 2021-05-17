@@ -5,10 +5,14 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Services";
 import Footer from "../components/Footer";
+
+import Contact from "../components/Contact/Contact";
+
 import {
   homeObjOne,
   homeObjThree,
   // homeObjTwo,
+  homeObjFour,
 } from "../components/InfoSection/Data";
 
 const Home = () => {
@@ -27,6 +31,8 @@ const Home = () => {
       {/* <InfoSection {...homeObjTwo} /> */}
       <Portfolio />
       <InfoSection {...homeObjThree} />
+      <Contact />
+
       <Footer />
     </>
   );
