@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Homework_React_Portfolio/static/css/main.d1af064b.chunk.css",
-    "main.js": "/Homework_React_Portfolio/static/js/main.29164473.chunk.js",
-    "main.js.map": "/Homework_React_Portfolio/static/js/main.29164473.chunk.js.map",
-    "runtime-main.js": "/Homework_React_Portfolio/static/js/runtime-main.e6ac8e78.js",
-    "runtime-main.js.map": "/Homework_React_Portfolio/static/js/runtime-main.e6ac8e78.js.map",
-    "static/js/2.9126c9f4.chunk.js": "/Homework_React_Portfolio/static/js/2.9126c9f4.chunk.js",
-    "static/js/2.9126c9f4.chunk.js.map": "/Homework_React_Portfolio/static/js/2.9126c9f4.chunk.js.map",
-    "index.html": "/Homework_React_Portfolio/index.html",
-    "static/css/main.d1af064b.chunk.css.map": "/Homework_React_Portfolio/static/css/main.d1af064b.chunk.css.map",
-    "static/js/2.9126c9f4.chunk.js.LICENSE.txt": "/Homework_React_Portfolio/static/js/2.9126c9f4.chunk.js.LICENSE.txt",
-    "static/media/svg-arcade.svg.svg": "/Homework_React_Portfolio/static/media/svg-arcade.svg.630b5474.svg",
-    "static/media/svg-deck.svg.84535d15.svg": "/Homework_React_Portfolio/static/media/svg-deck.svg.84535d15.svg",
-    "static/media/svg-landscape.svg.svg": "/Homework_React_Portfolio/static/media/svg-landscape.svg.09360de9.svg",
-    "static/media/video.d28831bc.mp4": "/Homework_React_Portfolio/static/media/video.d28831bc.mp4"
+    "main.css": "/ETN_Portfolio/static/css/main.d1af064b.chunk.css",
+    "main.js": "/ETN_Portfolio/static/js/main.1e31995f.chunk.js",
+    "main.js.map": "/ETN_Portfolio/static/js/main.1e31995f.chunk.js.map",
+    "runtime-main.js": "/ETN_Portfolio/static/js/runtime-main.0d50878a.js",
+    "runtime-main.js.map": "/ETN_Portfolio/static/js/runtime-main.0d50878a.js.map",
+    "static/js/2.f3db2ab1.chunk.js": "/ETN_Portfolio/static/js/2.f3db2ab1.chunk.js",
+    "static/js/2.f3db2ab1.chunk.js.map": "/ETN_Portfolio/static/js/2.f3db2ab1.chunk.js.map",
+    "index.html": "/ETN_Portfolio/index.html",
+    "static/css/main.d1af064b.chunk.css.map": "/ETN_Portfolio/static/css/main.d1af064b.chunk.css.map",
+    "static/js/2.f3db2ab1.chunk.js.LICENSE.txt": "/ETN_Portfolio/static/js/2.f3db2ab1.chunk.js.LICENSE.txt",
+    "static/media/svg-arcade.svg.svg": "/ETN_Portfolio/static/media/svg-arcade.svg.630b5474.svg",
+    "static/media/svg-deck.svg.84535d15.svg": "/ETN_Portfolio/static/media/svg-deck.svg.84535d15.svg",
+    "static/media/svg-landscape.svg.svg": "/ETN_Portfolio/static/media/svg-landscape.svg.09360de9.svg",
+    "static/media/video.d28831bc.mp4": "/ETN_Portfolio/static/media/video.d28831bc.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6ac8e78.js",
-    "static/js/2.9126c9f4.chunk.js",
+    "static/js/runtime-main.0d50878a.js",
+    "static/js/2.f3db2ab1.chunk.js",
     "static/css/main.d1af064b.chunk.css",
-    "static/js/main.29164473.chunk.js"
+    "static/js/main.1e31995f.chunk.js"
   ]
 }
