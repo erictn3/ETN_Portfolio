@@ -12,7 +12,7 @@ import {
   homeObjOne,
   homeObjThree,
   // homeObjTwo,
-  homeObjFour,
+  // homeObjFour,
 } from "../components/InfoSection/Data";
 
 const Home = () => {
