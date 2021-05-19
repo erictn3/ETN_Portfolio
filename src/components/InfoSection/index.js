@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
 
 import {
   InfoContainer,
@@ -12,7 +12,7 @@ import {
   TopLineTwo,
   Heading,
   Subtitle,
-  BtnWrap,
+  // BtnWrap,
   ImgWrap,
   Img,
 } from "./InfoElements";

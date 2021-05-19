@@ -1,14 +1,14 @@
 import React from "react";
 import Icon1 from '../../images/svg-deck.svg.svg';
 import Icon2 from '../../images/svg-deck.svg.svg';
-import Icon3 from '../../images/svg-deck.svg.svg';
+// import Icon3 from '../../images/svg-deck.svg.svg';
 import {
   PortfolioContainer,
   PortfolioH1,
   PortfolioWrapper,
   PortfolioCard,
   PortfolioIcon,
-  PortfolioH2,
+  // PortfolioH2,
   PortfolioP,
   Column2,
   Img,

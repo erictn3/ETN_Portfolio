@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: 'Eric Taylor Nguyen',
   headline: 'Understanding the Journey',
-  description: 'I am a Full Stack Web Developer and have been studying for nearly a decade',
+  description: 'I am a Full Stack Web Developer leveraging a background in sales and customer service. Recognized for innovation and a keen eye for easthetics and presentation. I pride myself in interpersonal communication and collaboration skills while enjoying working in team-based projects as well as independently.',
   // buttonLabel: 'More Info',
   imgStart: true,
   img: require('../../images/svg-landscape.svg.svg').default,
