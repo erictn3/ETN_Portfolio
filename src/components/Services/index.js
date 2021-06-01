@@ -1,6 +1,8 @@
 import React from "react";
 import Icon1 from '../../images/svg-deck.svg.svg';
 import Icon2 from '../../images/svg-deck.svg.svg';
+import Icon3 from '../../images/svg-deck.svg.svg';
+
 // import Icon3 from '../../images/svg-deck.svg.svg';
 import {
   PortfolioContainer,
@@ -34,13 +36,14 @@ const Portfolio = () => {
               Need help with your hectic schedule?
             </PortfolioP>
           </PortfolioCard>
-          {/* <PortfolioCard>
+          <PortfolioCard>
             <PortfolioIcon src={Icon3} />
-            <PortfolioH2>Project 3</PortfolioH2>
+            <a href="http://solarstein.io">Solar Stein</a>
+            {/* <PortfolioH2>Project 3</PortfolioH2> */}
             <PortfolioP>
-
+              Organizing and tracking your job search journey.
             </PortfolioP>
-          </PortfolioCard> */}
+          </PortfolioCard>
         </PortfolioWrapper>
     </PortfolioContainer>
   );

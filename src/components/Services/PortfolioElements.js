@@ -55,7 +55,7 @@ export const PortfolioCard = styled.div`
 `
 
 export const PortfolioIcon = styled.img`
-  height: 160px;
+  height: 360px;
   width: 160px;
   margin-bottom: 10px;
 `
