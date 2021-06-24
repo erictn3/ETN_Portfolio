@@ -1,5 +1,5 @@
 # ETN_Portfolio
 
 
-##Description
+# Description
 Full Stack Web Developer react-based portfolio.
