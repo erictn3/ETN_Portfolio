@@ -1,3 +1,5 @@
+import { Document } from 'react-pdf';
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -48,6 +50,8 @@ export const homeObjThree = {
   alt: 'Paper',
   dark: false, 
   primary: false,
-  darkText: true
+  darkText: true,
 
 };   
+
+

@@ -15,6 +15,7 @@ import {
   // BtnWrap,
   ImgWrap,
   Img,
+  Test
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -28,6 +29,7 @@ const InfoSection = ({
   darkText,
   description,
   secondDescription,
+  resumeLink,
   githubDescription,
   buttonLabel,
   img,
@@ -47,8 +49,9 @@ const InfoSection = ({
                 <TopLineTwo>{topLineTwo}</TopLineTwo>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <Subtitle darkText={darkText}>{secondDescription}</Subtitle>
-                <Subtitle darkText={darkText}>{githubDescription}</Subtitle>
+                <Test darkText={darkText}>{secondDescription}</Test>
+
+                <Subtitle darkText={darkText}>{resumeLink}</Subtitle>
                 {/* <BtnWrap>
                   <Button to="home"
                   smooth={true}

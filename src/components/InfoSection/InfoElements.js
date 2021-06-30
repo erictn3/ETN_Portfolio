@@ -91,6 +91,14 @@ export const Subtitle = styled.p`
   color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `;
 
+export const Test = styled.p`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+`;
+
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;

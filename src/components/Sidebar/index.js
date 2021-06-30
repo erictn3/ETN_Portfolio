@@ -10,22 +10,22 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
+import "./test.css"
+
 const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SidebarContainer className="sideBarContainer" isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
-      <SidebarWrapper>
-        <SidebarMenu>
+      <SidebarWrapper className="sideBarWrapper">
+        <SidebarMenu className="sideBarMenu">
           <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
           <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
           <SidebarLink to="portfolio" onClick={toggle}>Portfolio</SidebarLink>
           <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
+          <a className="sideBarLink" href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0" >Resume</a>
         </SidebarMenu>
-        <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
-        </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

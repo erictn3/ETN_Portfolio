@@ -14,6 +14,8 @@ import {
   // NavBtnLink
 } from "./NavbarElements";
 
+import './navbar.css';
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
@@ -46,6 +48,7 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks 
+                className="navbarTitle"
                 to='about'
                 smooth={true}
                 duration={500}
@@ -66,6 +69,7 @@ const Navbar = ({ toggle }) => {
             </NavItem> */}
             <NavItem>
               <NavLinks 
+                className="navbarTitle"
                 to='portfolio'
                 smooth={true}
                 duration={500}
@@ -74,8 +78,9 @@ const Navbar = ({ toggle }) => {
                 offset={-80}                
               >Portfolio</NavLinks>
             </NavItem>
-            <NavItem>
+            <NavItem className="navbarTitle">
               <NavLinks 
+                className="navbarTitle"
                 to='contact'
                 smooth={true}
                 duration={500}
@@ -83,6 +88,19 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}              
               >Contact</NavLinks>
+            </NavItem>
+            <NavItem>
+              <a className="navbarResume" href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0">Resume
+              </a>
+              {/* <NavLinks 
+                
+                to=''
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}              
+              >Resume</NavLinks> */}
             </NavItem>
           </NavMenu>
         </NavbarContainer>

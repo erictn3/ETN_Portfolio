@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDropbox} from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -29,7 +29,14 @@ const Footer = () => {
                 aria-label="Github">
                 <FaGithub />
               </SocialIconLink>
+              <SocialIconLink 
+                href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0" 
+                target="_blank" 
+                aria-label="Dropbox">
+                <FaDropbox />
+              </SocialIconLink>
             </SocialIcons>
+
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <WebsiteRights>
