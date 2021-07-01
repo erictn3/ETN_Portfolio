@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
           <SidebarLink to="portfolio" onClick={toggle}>Portfolio</SidebarLink>
           <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
-          <a className="sideBarLink" href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0" >Resume</a>
+          <a className="sideBarLink" href="https://www.dropbox.com/s/m134l5onvtheagi/EricTayN_Resume_Plain_070121.pdf?dl=0" >Resume</a>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

@@ -90,7 +90,7 @@ const Navbar = ({ toggle }) => {
               >Contact</NavLinks>
             </NavItem>
             <NavItem>
-              <a className="navbarResume" href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0">Resume
+              <a className="navbarResume" href="https://www.dropbox.com/s/m134l5onvtheagi/EricTayN_Resume_Plain_070121.pdf?dl=0">Resume
               </a>
               {/* <NavLinks 
                 

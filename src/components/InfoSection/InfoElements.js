@@ -92,6 +92,7 @@ export const Subtitle = styled.p`
 `;
 
 export const Test = styled.p`
+  href="https://www.dropbox.com/s/b1tr14rtcal7k09/EricTayN_Resume_Plain_062421_.pdf?dl=0"
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
