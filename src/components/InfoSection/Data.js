@@ -7,7 +7,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: 'Eric Taylor Nguyen',
   headline: 'Understanding the Journey',
-  description: 'I am a Full Stack Web Developer leveraging a background in sales and customer service. Recognized for innovation and a keen eye for aesthetics and presentation. I pride myself in interpersonal communication and collaboration skills while enjoying working in team-based projects as well as independently.',
+  description: 'I am a Full Stack Web Developer leveraging a background in sales and customer service. Recognized for innovation and a keen eye for aesthetics and presentation. I pride myself in interpersonal communication and collaboration skills while enjoying working in team-based projects as well as independently.Programming Languages: HTML, CSS, Javascript Database Management: Mysql, Sequelize MongoDb, Mongoose Libraries / Frameworks: jQuery, React.js, Redux, Express.js, Bootstrap, Materialize Other Technologies: Node.js, Passport.js, Handlebars, Git, Heroku, JWT Auth, AJAX, IndexedDB API',
   // buttonLabel: 'More Info',
   imgStart: true,
   img: require('../../images/svg-landscape.svg.svg').default,
